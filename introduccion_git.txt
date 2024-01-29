@@ -46,4 +46,4 @@ editar desde github
 para traer la informacion nueva de github
 al repocitorio de la pc
 
-git pull
+git pull holaaaaaa
