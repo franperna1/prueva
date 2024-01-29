@@ -1,0 +1,49 @@
+introduccion:
+
+crear un repositorio:
+
+hacer una carpeta con los archivos de programacion
+
+click derecho en la carpeta donde tenes tu proyecto
+
+git init: iniciar un repocitorio
+
+git status -s: nos da un listado de todos los archivos y carpetasque hay en el repocitorio y te indica el estado
+
+(si los archivos tienen ?? rojos es que no tienen seguimiento)
+
+git add nombre archivo; para hacer el seguimiento al archivo
+
+git commit -m "descripcion" para guardar la version actual del proyecto
+
+(si modificas el archivo que ya tiene un commit y pones git status te lo muestra con una m roja)
+(si pones git add te indica con el git status con una m verde que indica que ya podes hacer el commit)
+
+para poner un usuario y email:
+git config --global user.username "nombre"
+git config --global user.email "email"
+
+para verificar poner:
+git config --list
+
+
+para ver el listado de todos los commit que le hice al archivo:
+git log --oneline
+
+para restaurar el archivo al primer commit:
+git reset --hard (codigo de commit) cuidado se pierden los otros commit que hiciste despues de ese
+
+para hacer un add y commit a la vez
+git commit -am "descripcion"
+
+para ir subiendo al github lo que programamos
+git push -u origin master
+
+-------------------clonaciony tags----------------
+
+editar desde github
+
+para traer la informacion nueva de github
+al repocitorio de la pc
+
+git pull
